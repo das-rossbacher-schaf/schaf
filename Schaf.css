@@ -1,13 +1,13 @@
 body {
-     background-image: url("Medien/Hintergrund.PNG");
+     background-image: url("Medien/Hintergrund.png");
      background-repeat: no-repeat;
      background-attachment: fixed;
      background-size: 100% 100%;
 }
 
 #Schaf {
-     position: absolute;
-     top: 5%;
+     position: relative;
+     margin-top: 3%;
      left: 15%;
      border: 10px solid white;
      border-radius: 50%;
@@ -18,20 +18,21 @@ body {
      transition: height 0.35s, width 0.35s;
 }
 
-#Schaf:hover {
-     height: 75%;
-     width: 75%;
-     cursor:pointer;
-}
+     #Schaf:hover {
+          height: 75%;
+          width: 75%;
+          cursor: pointer;
+     }
 
 #Ueberschrift {
      font: 4em "Open Sans", sans-serif;
-     position: absolute;
-     top: 80%;
-     left: 30%;
+     position: relative;
+     margin-top: 5%;
+     left: 27%;
 }
 
 #background_video {
+     position: absolute;
      left: 0;
      top: 0;
      height: 100%;
@@ -83,7 +84,14 @@ body {
      border: 3px solid white;
      border-radius: 5px;
 }
+#vid5 {
+     border: 3px solid white;
+     border-radius: 5px;
+}
 
+#maehen {
+     visibility: hidden;
+}
 #arrow {
      position: absolute;
      bottom: 5%;
